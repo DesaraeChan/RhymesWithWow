@@ -198,6 +198,7 @@ nav {
 }
 
 .footerMain img {
+    margin-top: auto;
     margin-left: auto;
     height: auto;
     max-width: 25rem;
@@ -252,7 +253,7 @@ nav {
 
 .projectFlex {
     display: flex;
-
+    margin-bottom: 4rem;
 }
 
 .projectContCont {
