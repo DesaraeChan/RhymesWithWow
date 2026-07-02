@@ -213,7 +213,7 @@ nav {
     width: fit-content;
 }
 
-.advert {
+.spotlight {
     margin: 4rem 0rem;
     border: #1D1D1F;
     border-style: solid;
@@ -223,7 +223,7 @@ nav {
     margin-right: auto;
 }
 
-.advertMainHeader {
+.spotlightMainHeader {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 2.5rem;
@@ -232,7 +232,7 @@ nav {
     margin-left: 2rem;
 }
 
-.advertGrid {
+.spotlightGrid {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -243,24 +243,24 @@ nav {
     margin-bottom: 1rem;
 }
 
-.advertHeader {
+.spotlightHeader {
     font-size: 3.5rem;
     margin-top: 0rem;
     margin-bottom: 1rem;
 }
 
-.advertLink {
+.spotlightLink {
     margin-top: 3rem;
     display: inline-block;
     color: #305CDE;
     font-size: 1.25rem;
 }
 
-.advertLink::after {
+.spotlightLink::after {
     text-decoration-color: #305CDE;
 }
 
-.advertImg {
+.spotlightImg {
     display: block;
     max-width: 25rem;
     height: auto;
@@ -417,12 +417,12 @@ nav {
         max-width: 30rem;
     }
 
-    .advertImg {
+    .spotlightImg {
         max-width: 100%;
         height: auto;
     }
 
-    .advertGrid {
+    .spotlightGrid {
         display: flex;
         flex-direction: column;
         padding: 2rem;
@@ -430,7 +430,7 @@ nav {
         margin-left: 2rem;
     }
 
-    .advertLink {
+    .spotlightLink {
         margin-top: 0rem;
     }
 
@@ -542,7 +542,7 @@ nav {
         margin-top: 0.5rem;
     }
 
-    .advertGrid {
+    .spotlightGrid {
         margin-right: 0rem;
         margin-left: 0rem;
     }
@@ -554,7 +554,7 @@ nav {
         font-weight: bold;
     }
 
-    .advertHeader {
+    .spotlightHeader {
         font-size: 2.75rem;
         font-weight: bold;
     }
